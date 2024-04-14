@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-viewlive2-dev-102200-authRole",
+      "UnauthRoleArn": "arn:aws:iam::649676779013:role/amplify-viewlive2-dev-102200-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::649676779013:role/amplify-viewlive2-dev-102200-authRole",
+      "Region": "ca-central-1",
+      "DeploymentBucketName": "amplify-viewlive2-dev-102200-deployment",
+      "UnauthRoleName": "amplify-viewlive2-dev-102200-unauthRole",
+      "StackName": "amplify-viewlive2-dev-102200",
+      "StackId": "arn:aws:cloudformation:ca-central-1:649676779013:stack/amplify-viewlive2-dev-102200/17dc2360-e446-11ed-ac3b-0e7fbd608bfe",
+      "AmplifyAppId": "d31fb2nmmf999b"
+    },
+    "categories": {
+      "auth": {
+        "viewlive2": {}
+      },
+      "function": {
+        "graphQlLambdaAuthorizerafa62654": {
+          "deploymentBucketName": "amplify-viewlive2-dev-102200-deployment",
+          "s3Key": "amplify-builds/graphQlLambdaAuthorizerafa62654-634b475864627a774d39-build.zip"
+        }
+      },
+      "storage": {
+        "s3viewlive2storage2d9b46fd": {}
+      }
+    }
+  }
+}
