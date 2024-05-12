@@ -13,39 +13,6 @@ Amplify.configure(awsconfig);
 
 
 function App() {
-  
-
-
-  // useEffect(() => {
-  //   const setUser = async () => {
-  //     // set user based on cognito sub id
-
-  //     const authUser = await Auth.currentAuthenticatedUser({bypassCache: true});
-  //     console.log("CURRENT COGNITO USER ID: ", authUser.attributes.sub  );
-  //     try {
-  //       const result = await API.graphql({
-  //         query: listUsers,
-  //         variables: {
-  //           filter: {
-  //             cognitoUser: {
-  //               eq: authUser.attributes.sub // the current cognito user id
-  //             }
-  //           }
-  //         }
-  //       });
-  //       setCurrUser(result.data.listUsers.items[0].id);
-  //     } catch (error) {
-  //       console.error("Error fetching current user:", error);
-  //     }
-  //   }
-
-
-  //   setUser();
-  // }, [])
-
-
-
-
   return (
       <View style={styles.container}>
         <Navigator/>
@@ -56,9 +23,9 @@ function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     justifyContent: 'center',
     paddingVertical: 40,
+    backgroundColor: '#fff',
   },
 });
 
