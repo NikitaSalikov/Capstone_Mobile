@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Message from '../components/Message';
 import messages from '../../assets/data/messages.json';
 import bg from '../../assets/BG.jpeg';
-import InputBox from '../components/MessageSenBox';
+import InputBox from '../components/MessageSendBox';
 import {useRoute, useNavigation } from '@react-navigation/native';
 import {API, graphqlOperation} from 'aws-amplify';
 import { getChatGroup, getLocation, getUser, chatMessagesByChatgroupID } from '../graphql/queries';
